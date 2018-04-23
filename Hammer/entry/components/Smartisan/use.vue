@@ -1,0 +1,220 @@
+<template>
+	<div>
+		<div id="Sma-use-one">
+			<img src="../../czimg/use-1.jpg" />
+		</div>
+		<div id="Sma-use-two">
+			<img src="../../czimg/use-2.jpg" />
+		</div>
+		<div id="Sma-use-three">
+			<img src="../../czimg/use-3.jpg" />
+		</div>
+		<div id="Sma-use-four">
+			<img src="../../czimg/use-4.jpg" />
+		</div>
+		<div id="Sma-use-five">
+			<img src="../../czimg/use-5.jpg" />
+		</div>
+		<div id="Sma-use-six">
+			<img src="../../czimg/use-6.jpg" />
+		</div>
+		<div id="Sma-use-seven">
+			<img src="../../czimg/use-7.jpg" />
+		</div>
+		<div id="Sma-use-eight">
+			<img src="../../czimg/use-8.jpg" />
+		</div>
+		<div id="Sma-use-night">
+			<img src="../../czimg/use-9.jpg" />
+		</div>
+		<div id="Sma-use-ten">
+			<img src="../../czimg/use-10.jpg" />
+		</div>
+		<div id="Sma-use-oneo">
+			<img src="../../czimg/use-11.jpg" />
+		</div>
+		<div id="Sma-use-slide">
+			<el-collapse v-model="activeNames" @change="handleChange">
+				<el-collapse-item title="订单服务 " name="1">
+					<div><a href="https://www.smartisan.com/support/#/help-service/instruction">购买指南</a></div>
+					<div><a href="https://www.smartisan.com/support/#/help-service/payment">支付方式</a></div>
+					<div><a href="https://www.smartisan.com/support/#/help-service/delivery">送货政策</a></div>
+				</el-collapse-item>
+				<el-collapse-item title="服务支持" name="2">
+					<div>售货服务</div>
+					<div>售货政策</div>
+					<div>保修服务</div>
+					<div>维修报价</div>
+					<div>维修门店</div>
+					<div>零售门店</div>
+				</el-collapse-item>
+				<el-collapse-item title="自助服务" name="3">
+					<div>热点资讯</div>
+					<div>预约购买</div>
+					<div>订单物流</div>
+					<div>日常使用</div>
+					<div>常见问题</div>
+				</el-collapse-item>
+				<el-collapse-item title="媒体中心" name="4">
+					<div>新闻动态</div>
+					<div>官方视频</div>
+					<div>图片资源</div>
+					<div>时尚之选</div>
+				</el-collapse-item>
+				<el-collapse-item title="关于公司" name="5">
+					<div>公司简介</div>
+					<div>获奖信息</div>
+					<div>企业文化</div>
+					<div>加入我们</div>
+					<div>联系我们</div>
+				</el-collapse-item>
+				<el-collapse-item title="关注我们" name="6">
+					<div><a href="https://weibo.com/smartisan">新浪微博</a></div>
+					<div>官方微博</div>
+					<div><a href="http://tieba.baidu.com/f?kw=%B4%B8%D7%D3%BF%C6%BC%BC">官方之贴</a></div>
+				</el-collapse-item>
+			</el-collapse>
+		</div>
+		<div id="Sma-use-footer">
+			<div>
+				<p>Copyright © 2018, Smartisan Digital Co., Ltd. All Rights Reserved.</p>
+			</div>
+			<div class="Sma-use-one">
+				<h6>北京锤子数码科技有限公司</h6>
+				<ul>
+					<li>
+						<a href="#">法律声明</a>
+					</li>
+					<li>
+						<a href="#">隐私条款</a>
+					</li>
+				</ul>
+			</div><br />
+			<div class="Sma-use-two">
+				<i>京ICP备14041720号-1 京ICP证140622号 京公网安备11010502025474</i>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				activeNames: []
+			};
+		},
+		methods: {
+			handleChange(val) {
+				console.log(val);
+			}
+		}
+	}
+</script>
+
+<style scoped>
+	#Sma-use-one img {
+		width: 100%;
+		height: 3.51rem;
+	}
+	#Sma-use-two img {
+		width: 100%;
+		height:2.18rem;
+	}
+	#Sma-use-three img {
+		width: 100%;
+		height: 5.23rem;
+	}
+	#Sma-use-four img {
+		width: 100%;
+		height: 3.77rem;
+	}
+	#Sma-use-five img {
+		width: 100%;
+		height: 3.03rem;
+	}
+	
+	#Sma-use-six img {
+		width: 100%;
+		height:3.02rem;
+	}
+	
+	#Sma-use-seven img {
+		width: 100%;
+		height:3.40rem;
+	}
+	#Sma-use-eight img {
+		width: 100%;
+		height: 2.86rem;
+	}
+	#Sma-use-night img {
+		width: 100%;
+		height: 5.20rem;
+	}
+	#Sma-use-ten img {
+		width: 100%;
+		height: 2.37rem;
+	}
+	#Sma-use-oneo img {
+		width: 100%;
+		height: 3.00rem;
+	}
+
+	#Sma-use-slide .haode:nth-child(1) {
+		border-top: 1px solid #e8e4e4;
+	}
+	
+	#Sma-use-slide .haode {
+		padding-left: 0.3rem;
+		border-bottom: 1px solid #e8e4e4;
+	}
+	
+	#Sma-use-footer {
+		height: 0.81rem;
+		width: 100%;
+	}
+	
+	#Sma-use-footer h5 {
+		float: left;
+		padding: 0 0.1rem
+	}
+	
+	#Sma-use-footer .privacy li {
+		float: left;
+		padding: 0 0.1rem;
+		border-left: 1px solid #ccc;
+		text-align: center;
+	}
+	
+	#Sma-use-footer .privacy li a {
+		color: blue;
+	}
+	
+	#Sma-use-footer p {
+		margin-top: 0.15rem;
+	}
+	
+	#Sma-use-footer .Sma-use-one {
+		margin-top: 0.15rem;
+	}
+	
+	#Sma-use-footer .Sma-use-one h6 {
+		float: left;
+		padding: 0 0.1rem 0 0.6rem;
+	}
+	
+	#Sma-use-footer .Sma-use-one ul li {
+		float: left;
+		padding: 0 0.1rem;
+		border-left: 1px solid #ccc;
+	}
+	
+	#Sma-use-footer .Sma-use-one ul li a {
+		color: #0000FF;
+	}
+	
+	#Sma-use-footer .Sma-use-two {
+		text-align: center;
+		padding-top: 0.08rem;
+	}
+</style>

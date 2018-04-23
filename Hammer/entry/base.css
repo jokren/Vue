@@ -1,0 +1,19 @@
+/* CSS Document */
+
+body,html,div,span,i,ul,li,ol,dl,dt,dd,img,p,form,input,table,tr,td,h1,h2,h3,h4,h5,h6,i,em,strong,b{ margin:0; padding:0; }
+img { border:none; }
+input{ outline:none;}
+i,em,b,strong,h1,h2,h3,h4,h5,h6{ font-style:normal; font-weight:normal; }
+
+ul li, ol li{ list-style:none; } 
+body { color:#333; font:"微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+a{ color:#666; text-decoration:none; }
+a:hover{ color:#FF3300;}
+/*body{font-size: 0.07rem;line-height: 0.14rem;}*/
+
+
+.ind{text-indent:2em} 
+.noborder{border:0;}
+.mt10{ margin-top:10px;}
+.clearfix:after{ content:"."; display:block; clear:both; visibility:hidden; overflow:hidden; font-size:0; width:0;}
+

@@ -1,0 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li,ol li {
+    list-style: none;
+}
